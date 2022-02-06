@@ -1,0 +1,11 @@
+{
+  "verbose": false,
+  "ignore": [
+    ".github/*",
+    "dist/*",
+    "node_modules/*",
+    "playground/*",
+    "sass-doc/*"
+  ],
+  "ext": "js, scss"
+}

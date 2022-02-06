@@ -1,0 +1,26 @@
+{
+  "name": "core-css",
+  "version": "1.0.0",
+  "description": "Design System",
+  "main": "index.scss",
+  "author": "Jônatas Bueno / Luan Bernardes",
+  "private": true,
+  "files": [
+    "src/*"
+  ],
+  "scripts": {
+  "dev": "sass ./src/_import-core-main.scss:playground/assets/css/main.css",
+    "dev:watch": "sass ./src/_import-core-main.scss:playground/assets/css/main.css --watch",
+    "playground": "node config/create-playground && npm run dev",
+    "sassdoc": "sassdoc ./src --config ./.sassdocrc.yml",
+    "lint": "sass-lint -v -q",
+    "lint:table": "sass-lint -v -q -f table",
+    "lint:vs": "sass-lint -v -q -f visualstudio"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "sass": "^1.49.7",
+    "sass-lint": "^1.13.1",
+    "sassdoc": "^2.7.3"
+  }
+}

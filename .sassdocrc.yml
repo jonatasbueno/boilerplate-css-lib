@@ -1,0 +1,11 @@
+dest: ./sass-doc
+descriptionPath: ./README.md
+groups:
+  components: Componentes
+  tools: Ferramentas
+  private-tools: Ferramentas Privadas
+  generic: Genérico
+  settings: Configurações
+  undefined: Não Classificados
+sort:
+  - access<
